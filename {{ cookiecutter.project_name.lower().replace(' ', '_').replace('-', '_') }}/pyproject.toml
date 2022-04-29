@@ -35,17 +35,24 @@ classifiers = [  #! Update me
   "Programming Language :: Python :: 3.{{ minor_version }}",{% endfor %}
 ]
 
-{% if cookiecutter.create_example_template == 'cli' -%}[tool.poetry.scripts]
+{% if cookiecutter.create_example_template == 'cli' -%}
+[tool.poetry.scripts]
 # Entry points for the package https://python-poetry.org/docs/pyproject/#scripts
-"{{ cookiecutter.project_name }}" = "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}.__main__:app"{%- endif %}
+"{{ cookiecutter.project_name }}" = "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}.__main__:app"
+{%- endif %}
 
 [tool.poetry.dependencies]
 python = "^{{ cookiecutter.minimal_python_version }}"
-{% if cookiecutter.minimal_python_version == '3.7' -%}importlib_metadata = {version = "^4.5.0", python = "<3.8"}{%- endif -%}
+{% if cookiecutter.minimal_python_version == '3.7' -%}
+importlib_metadata = {version = "^4.5.0", python = "<3.8"}
+{%- endif -%}
 {%+ if cookiecutter.create_example_template == 'cli' %}
 typer = {extras = ["all"], version = "^0.4.0"}
 rich = "^10.14.0"
+stackprinter = "^0.2.6"
+loguru = "^0.6.0"
 {% endif %}
+
 [tool.poetry.dev-dependencies]
 bandit = "^1.7.1"
 black = {version = "^21.10b0", allow-prereleases = true}
@@ -63,6 +70,9 @@ coverage = "^6.1.2"
 coverage-badge = "^1.1.0"
 pytest-html = "^3.1.1"
 pytest-cov = "^3.0.0"
+pysnooper = "^1.1.1"
+pytest-sugar = "^0.9.4"
+
 
 [tool.black]
 # https://github.com/psf/black

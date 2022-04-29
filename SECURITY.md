@@ -7,7 +7,7 @@
 
 Vulnerabilities can be reported by emailing core members:
 
-- Roman Tezikov [tez.romach@gmail.com](mailto:tez.romach@gmail.com)
+- Mike Rose [mrose@fourrosesoftware.com](mailto:mrose@fourrosesoftware.com)
 
 Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
 
