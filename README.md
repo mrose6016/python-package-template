@@ -436,8 +436,8 @@ This template was inspired by several great articles:
 and repositories:
 
 - [`Cookiecutter`](https://github.com/cookiecutter/cookiecutter)
-- [`wemake-python-package`](https://github.com/wemake-services/wemake-python-package)
 - [Audreyr's `cookiecutter-pypackage`](https://github.com/audreyr/cookiecutter-pypackage)
+- [`wemake-python-package`](https://github.com/wemake-services/wemake-python-package)
 - [Full Stack FastAPI and PostgreSQL - Base Project Generator](https://github.com/tiangolo/full-stack-fastapi-postgresql)
 - [Cookiecutter Data Science Template: `cdst`](https://github.com/crplab/cdst)
 
@@ -449,7 +449,7 @@ Give them your ⭐️, these resources are amazing! 😉
 @misc{python-package-template,
   author = {Mike Rose},
   title = {Python Packages Project Generator},
-  year = {2020},
+  year = {2022},
   publisher = {GitHub},
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/mrose6016/python-package-template}}

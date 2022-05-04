@@ -92,16 +92,16 @@ Building a new version of the application contains steps:
 
 Well, that's up to you 💪🏻. I can only recommend the packages and articles that helped me.
 
-- [`Typer`](https://github.com/tiangolo/typer) is great for creating CLI applications.
-- [`Rich`](https://github.com/willmcgugan/rich) makes it easy to add beautiful formatting in the terminal.
-- [`Pydantic`](https://github.com/samuelcolvin/pydantic/) – data validation and settings management using Python type hinting.
-- [`Loguru`](https://github.com/Delgan/loguru) makes logging (stupidly) simple.
-- [`tqdm`](https://github.com/tqdm/tqdm) – fast, extensible progress bar for Python and CLI.
-- [`IceCream`](https://github.com/gruns/icecream) is a little library for sweet and creamy debugging.
-- [`orjson`](https://github.com/ijl/orjson) – ultra fast JSON parsing library.
-- [`Returns`](https://github.com/dry-python/returns) makes you function's output meaningful, typed, and safe!
-- [`Hydra`](https://github.com/facebookresearch/hydra) is a framework for elegantly configuring complex applications.
-- [`FastAPI`](https://github.com/tiangolo/fastapi) is a type-driven asynchronous web framework.
+- [`Typer`](https://github.com/tiangolo/typer) - great for creating CLI applications.
+- [`Rich`](https://github.com/willmcgugan/rich) - makes it easy to add beautiful formatting in the terminal.
+- [`Pydantic`](https://github.com/samuelcolvin/pydantic/) - data validation and settings management using Python type hinting.
+- [`Loguru`](https://github.com/Delgan/loguru) - makes logging (stupidly) simple.
+- [`tqdm`](https://github.com/tqdm/tqdm) - fast, extensible progress bar for Python and CLI.
+- [`IceCream`](https://github.com/gruns/icecream) - is a little library for sweet and creamy debugging.
+- [`orjson`](https://github.com/ijl/orjson) - ultra fast JSON parsing library.
+- [`Returns`](https://github.com/dry-python/returns) - makes you function's output meaningful, typed, and safe!
+- [`Hydra`](https://github.com/facebookresearch/hydra) - a framework for elegantly configuring complex applications.
+- [`FastAPI`](https://github.com/tiangolo/fastapi) - is a type-driven asynchronous web framework.
 
 Articles:
 
